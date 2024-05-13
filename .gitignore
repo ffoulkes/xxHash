@@ -34,6 +34,7 @@ fuzzer
 
 # CMake build directories
 build*/
+install*/
 
 # project managers artifacts
 .projectile
@@ -47,12 +48,14 @@ tmp*
 tests/*.unicode
 tests/unicode_test*
 *.txt
+!CMakeLists.txt
 *.xxhsum
 
 # editor artifacts
 .clang_complete
 *.swp
 .vscode/
+.vslick/
 
 # Doxygen
 doxygen/
